@@ -1,0 +1,120 @@
+.reachmeBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    z-index: 12;
+    justify-content: center;
+}
+.reachmeBlock .contentAndLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reachmeBlock .bmc {
+    background: rgba(3, 4, 34, 0.205);
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 15;
+    transition: 0.5s;
+}
+.reachmeBlock .bmc .bmcText {
+    margin-left: 15px;
+    color: #35d3db b9;
+    font-size: 1.2em;
+    font-family: "
+   Alata"
+   , sans-serif;
+}
+.reachmeBlock .bmc:hover {
+    background: rgba(3, 4, 34, 0.493);
+    transition: 0.5s;
+}
+.reachmeBlock p {
+    color: rgba(255, 255, 255, 0.863);
+    letter-spacing: 1.3px;
+    line-height: 35px;
+    font-size: 1.4em;
+    background: rgba(3, 4, 34, 0.493);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 50px 50px 20px 50px;
+}
+.reachmeBlock p .tColor {
+    color: #35d3db;
+}
+.reachmeBlock .middle {
+    display: flex;
+    z-index: 12;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reachmeBlock .middle a {
+    display: inline-block;
+    width: 70px;
+    height: 110px;
+    background: #ffffff00;
+    margin: 10px;
+    color: #35d3db;
+    overflow: hidden;
+    position: relative;
+    /* border: solid #35d3db 2px; */
+    text-align: center;
+    text-decoration: none;
+}
+.middle label{
+    font-size: 15px;
+}
+.reachmeBlock .middle a:hover {
+    /* border: solid #ff5de9 2px; */
+
+}
+.reachmeBlock .middle a i {
+    line-height: 70px;
+    font-size: 50px;
+    transition: 0.2s linear;
+}
+.reachmeBlock .middle a i:hover {
+    transform: scale(1.3);
+    color: #00fbda;
+}
+.reachmeBlock .middle a:hover i {
+    transform: scale(1.3);
+    color: #00fbda;
+}
+.reachmeBlock .middle a::before {
+    content: "
+   "
+   ;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #35d3db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.reachmeBlock .middle a:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+   }
+    50% {
+        left: 10%;
+        top: -30%;
+   }
+    100% {
+        top: -10%;
+        left: -10%;
+   }
+}

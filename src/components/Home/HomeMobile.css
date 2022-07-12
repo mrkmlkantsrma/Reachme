@@ -1,0 +1,43 @@
+
+@media (max-width: 465px) {
+    .reachmeBlock {
+        margin-top: 35px;
+        display: flex;
+        margin-bottom: 30px;
+   }
+   .reachmeBlock img {
+    width: 90%;
+}
+    .reachmeBlock .contentAndLinks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
+    .reachmeBlock .bmc {
+        margin-top: 0;
+   }
+    .reachmeBlock .bmc .bmcText {
+        margin-left: 15px;
+        color: #35d3db b9;
+        font-size: 1.2em;
+        font-family: "
+       Alata"
+       , sans-serif;
+   }
+    .reachmeBlock .bmc:hover {
+        background: rgba(3, 4, 34, 0.493);
+        transition: 0.5s;
+   }
+    .reachmeBlock p {
+        line-height: 25px;
+        font-size: 1em;
+        width: 300px;
+        padding: 40px 25px 10px 25px;
+   }
+    .reachmeBlock .middle {
+        flex-direction: row;
+        margin-bottom: 0;
+        transition: 1s;
+        height: 100%;
+   }
+}
