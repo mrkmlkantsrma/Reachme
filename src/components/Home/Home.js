@@ -53,7 +53,7 @@ const Home = () => {
             rel="noopener noreferrer"
             href="https://github.com/mrkmlkantsrma"
           >
-           <i class="fa fa-github"></i>
+           <i className="fa fa-github"></i>
  
           <label> Github</label>
           </motion.a>
