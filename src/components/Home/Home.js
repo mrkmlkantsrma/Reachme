@@ -40,10 +40,9 @@ const Home = () => {
       className="reachmeBlock"
     >
       <div className="contentAndLinks">
-        <p>
-      <Header />
+      <div className="mainSocialSection">
+        <Header />
      
-         
         <div className="middle">
           <motion.a
             variants={item}
@@ -90,11 +89,12 @@ const Home = () => {
             <i className="fa fa-user"></i>
             <label> Profile</label>
           </motion.a>
+
         </div>
         Reach me Out on <br />
         Email : Kmlkantsrma@Gmail.com <br />
         Mob : +91 78072-40936
-        </p>
+      </div>
       </div>
     </motion.div>
   );

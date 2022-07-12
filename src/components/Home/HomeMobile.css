@@ -28,7 +28,7 @@
         background: rgba(3, 4, 34, 0.493);
         transition: 0.5s;
    }
-    .reachmeBlock p {
+    .reachmeBlock .mainSocialSection {
         line-height: 25px;
         font-size: 1em;
         width: 300px;

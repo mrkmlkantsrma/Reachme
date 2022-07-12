@@ -35,7 +35,7 @@
     background: rgba(3, 4, 34, 0.493);
     transition: 0.5s;
 }
-.reachmeBlock p {
+.reachmeBlock .mainSocialSection {
     color: rgba(255, 255, 255, 0.863);
     letter-spacing: 1.3px;
     line-height: 35px;
@@ -45,7 +45,7 @@
     border-radius: 5px;
     padding: 50px 50px 20px 50px;
 }
-.reachmeBlock p .tColor {
+.reachmeBlock .mainSocialSection .tColor {
     color: #35d3db;
 }
 .reachmeBlock .middle {
